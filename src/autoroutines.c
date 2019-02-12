@@ -18,6 +18,7 @@ void compAutoRedRight(){
   driveForDistancePID(30, 60);     // for 10 meter = 394" at speed 60
   pivotTurn(0, 30, 90);            // turn at seed 30 for 90 degree angle right turn
   driveForDistancePID(12, 50);     // After turn drive a bit more forward
+  driveForDistancePID(12, 10)
 }
 
 void testAutoDrive(){
