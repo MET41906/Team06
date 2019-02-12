@@ -18,8 +18,8 @@ void compAutoRedRight(){
      // for 10 meter = 394" at speed 60            // turn at seed 30 for 90 degree angle right turn
     // After turn drive a bit more forward
   driveForDistancePID(12, 50);
-  pivotTurn(0, 30, 90);
-  driveForDistancePID(12, 30);
+  pivotTurn(0, 45, 10);
+  driveForDistancePID(36, 30);
   liftMove(30);
   delay(2000);
   liftMove(0);
