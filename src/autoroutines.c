@@ -17,15 +17,17 @@ void compAutoRedRight(){
   // function based on some selector input.
      // for 10 meter = 394" at speed 60            // turn at seed 30 for 90 degree angle right turn
     // After turn drive a bit more forward
-  driveForDistancePID(12, 25);
+  driveForDistancePID(12, 50);
   pivotTurn(0, 30, 90);
-  driveForDistancePID(34, 30);
-  liftMoveAngle(10, 30)
+  driveForDistancePID(12, 30);
+  liftMove(30);
+  delay(2000);
+  liftMove(0);
 }
 
 void testAutoDrive(){
   // lets drive forward for a set speed using PID and will drive forever
   // unless asked to stop.....
-  driveRobot(80);       // dirve robot forward at speed '80'
-  delay(2000);         // drive for 200mSec (2Sec)
+         // dirve robot forward at speed '80'
+          // drive for 200mSec (2Sec)
 }
