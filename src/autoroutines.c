@@ -19,10 +19,12 @@ void compAutoRedRight(){
     // After turn drive a bit more forward
   driveForDistancePID(12, 50);
   pivotTurn(1, 50, 40);
-  driveForDistancePID(70, 50);
-  liftMoveAngle(40, 140);
-  driveForDistancePID(10, 50);
-  driveForDistancePID(50, -50);
+  driveForDistancePID(20, 50);
+  liftMove(75);
+  delay(2000);
+  liftMove(0);
+  driveForDistancePID(5, 50);
+  driveForDistancePID(30, -50);
   pivotTurn(1, 40, 450);
 }
 
