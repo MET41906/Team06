@@ -21,7 +21,7 @@ void compAutoRedRight(){
   pivotTurn(1, 50, 70);
   driveForDistancePID(15, 50);
   liftMove(60);
-  delay(2000);
+  delay(1000);
   liftMove(0);
   driveForDistancePID(5, 50);
   driveForDistancePID(30, -50);
