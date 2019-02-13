@@ -20,7 +20,7 @@ void compAutoRedRight(){
   driveForDistancePID(12, 50);
   pivotTurn(1, 50, 70);
   driveForDistancePID(15, 50);
-  liftMove(25);
+  liftMove(5);
   delay(2000);
   liftMove(0);
   driveForDistancePID(5, 50);

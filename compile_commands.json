@@ -303,11 +303,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/autoroutines.c.o",
-            "src\\autoroutines.c"
+            "bin/intake.c.o",
+            "src\\intake.c"
         ],
         "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
-        "file": "src\\autoroutines.c"
+        "file": "src\\intake.c"
     },
     {
         "arguments": [
@@ -334,42 +334,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/chassis.c.o",
-            "src\\chassis.c"
+            "bin/opcontrol.c.o",
+            "src\\opcontrol.c"
         ],
         "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
-        "file": "src\\chassis.c"
-    },
-    {
-        "arguments": [
-            "clang++",
-            "-c",
-            "-target",
-            "armv7ar-none-none-eabi",
-            "-fno-ms-extensions",
-            "-fno-ms-compatibility",
-            "-fno-delayed-template-parsing",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
-            "-isystem./include",
-            "-iquote./include/./",
-            "-mthumb",
-            "-mcpu=cortex-m3",
-            "-mlittle-endian",
-            "-Os",
-            "-ffunction-sections",
-            "-fsigned-char",
-            "-fomit-frame-pointer",
-            "-fsingle-precision-constant",
-            "-fdiagnostics-color",
-            "-std=gnu99",
-            "-o",
-            "bin/init.c.o",
-            "src\\init.c"
-        ],
-        "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
-        "file": "src\\init.c"
+        "file": "src\\opcontrol.c"
     },
     {
         "arguments": [
@@ -401,6 +370,37 @@
         ],
         "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
         "file": "src\\lift.c"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-target",
+            "armv7ar-none-none-eabi",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
+            "-isystem./include",
+            "-iquote./include/./",
+            "-mthumb",
+            "-mcpu=cortex-m3",
+            "-mlittle-endian",
+            "-Os",
+            "-ffunction-sections",
+            "-fsigned-char",
+            "-fomit-frame-pointer",
+            "-fsingle-precision-constant",
+            "-fdiagnostics-color",
+            "-std=gnu99",
+            "-o",
+            "bin/manipulator.c.o",
+            "src\\manipulator.c"
+        ],
+        "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
+        "file": "src\\manipulator.c"
     },
     {
         "arguments": [
@@ -489,11 +489,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/intake.c.o",
-            "src\\intake.c"
+            "bin/chassis.c.o",
+            "src\\chassis.c"
         ],
         "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
-        "file": "src\\intake.c"
+        "file": "src\\chassis.c"
     },
     {
         "arguments": [
@@ -520,11 +520,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/opcontrol.c.o",
-            "src\\opcontrol.c"
+            "bin/init.c.o",
+            "src\\init.c"
         ],
         "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
-        "file": "src\\opcontrol.c"
+        "file": "src\\init.c"
     },
     {
         "arguments": [
@@ -551,10 +551,10 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/manipulator.c.o",
-            "src\\manipulator.c"
+            "bin/autoroutines.c.o",
+            "src\\autoroutines.c"
         ],
         "directory": "C:\\Users\\streulic\\Documents\\GitHub\\Team06",
-        "file": "src\\manipulator.c"
+        "file": "src\\autoroutines.c"
     }
 ]
