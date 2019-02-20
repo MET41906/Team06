@@ -17,11 +17,16 @@ void compAutoRedRight(){
   // function based on some selector input.
      // for 10 meter = 394" at speed 60            // turn at seed 30 for 90 degree angle right turn
     // After turn drive a bit more forward
-  driveForDistancePID(12, 50);
-  pivotTurn(1, 50, 70);
-  driveForDistancePID(-15, 50);
-  //liftMove(60);
-  //delay(2);
+    liftMove(40);
+    delay(2000);
+    liftMove(0);
+  driveForDistancePID(60, 50);
+  driveForDistancePID(60, -50);
+  //driveForDistancePID(-15, 50);
+//pivotTurn(1, 50, 90);
+  //driveForDistancePID(48, 50);
+  //pivotTurn(0, 50, 90);
+  //driveForDistancePID(15, 50);
   //driveForDistancePID(5, 50);
   //driveForDistancePID(30, -50);
   //pivotTurn(1, 40, 270);
