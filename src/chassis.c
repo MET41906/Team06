@@ -154,9 +154,9 @@ void driveForDistancePID(int distance, int speed) {
     if(DEBUG_ON){
       // We are going to write soem stuff to the terminal for debugging
       printf("MasterPower: %d ", masterPower);
-      printf("SlavePower: %d ", slavePower);
+      printf("SlavePower: %d   ", slavePower);
       printf("Left Enc: %d ", encoderGet(encoderLM));
-      printf("Right Enc: %d ", encoderGet(encoderRM));
+      printf("Right Enc: %d      ", encoderGet(encoderRM));
       printf("Error: %d ", error);
       printf("Kp: %d ", kp);
       printf("\n ");
